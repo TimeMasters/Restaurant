@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title> Queen's Spirits </title>
+	</head>
+
+	<body>
+		<div class="entete" id="top"> 
+			<div class="titrebar"> 
+				<a class="sans_hypertxt" href="index.html">Queen's Spirits </a>
+			</div>
+		</div>
+		<div class="menu"> 
+			<a class="sans_hypertxt" href="index.html">
+				<div class="button">
+					ACCUEIL  
+				</div>
+			</a>
+			<a class="sans_hypertxt" href="menus.html">
+				<div class="button">
+					MENUS
+				</div>
+			</a>
+			<a class="sans_hypertxt" href="boissons.html">
+				<div  class="button">
+					BOISSONS 
+				</div>
+			</a>
+			<a class="sans_hypertxt" href="contactez-nous.html">
+				<div class="button">
+					CONTACTEZ-NOUS
+				</div>
+			</a>
+			<a class="sans_hypertxt" href="galerie.html">
+				<div class="button">
+					GALERIE
+				</div>
+			</a>
+		</div>
+		<div class="corps">
+			<div style="font-family:Dancing;font-size:150%"><br>CONTACTEZ-NOUS<br></div><hr class="grand_titre"/>
+			<div style="height:auto;width:480px"><br>
+				<form action="message_envoyé.html" method="GET">
+					<p style="text-align:left;margin-left:50px">
+					<input type="text" name="champ" placeholder="Nom" required>
+					<br><br>
+					<input type="text" name="champ" placeholder="Prénom" required>
+					<br><br>
+					<select name="Objet" required>
+						<option value="" disabled selected> Choisir type de demande </option>
+						<option value="1"> Demande d'emploi </option>
+						<option value="2"> Recherche de stage </option>
+						<option value="3"> Réservation </option>
+						<option value="4"> Autre </option>
+					</select>
+					<br><br>
+					<textarea name="Demande" rows="15" cols="50" placeholder="Ecrivez votre réclamation ici..." style="resize:none" required></textarea>
+					<br><span style="font-size:16px;text-align:left">750 caractères maximum</span>
+					<span style="text-align:left;margin-left:307px"><input type="submit" value="Envoyer"></span>
+				</form>
+				<br>
+			</div>
+			<div style="position:absolute;left:500px;top:170px;width:420px;height:auto;border:solid 2px white;border-radius:20px;" class="infos">
+				<br>
+				Infos pratiques
+				<br><br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.722448429315!2d-73.89519899999996!3d40.70211000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa4c3416ad80ec013!2sQueens+Tavern!5e0!3m2!1sfr!2sfr!4v1421931963266" width="400" height="300" style="border:0"></iframe>
+				<br><br>
+				<p style="font-size:18px;text-align:left;margin-left:20px">Téléphone :  212-112-2334
+				<br><br>
+			</div>
+			<br>
+		</div>
+				<!--RESEAU SOCIAUX -->
+		<div class="social"> Suivez nous sur les reseaux sociaux! </div>
+		<div style="position:fixed;bottom:0;right:2px">
+			<img style="width:50px; height:50px;" src="twitter_logo.jpg" alt="Join us on Twitter">
+		</div>
+		<a href="https://twitter.com/QueensSpiritoff" target="_blank">
+			<div class="highlight" style="height:50px;width:50px;position:fixed;bottom:0;right:2px">
+			</div>
+		</a>
+		<div style="position:fixed;bottom:0;right:56px">
+			<img style="width:50px; height:50px;" src="fb_logo.jpg" alt="Join us on Facebook">
+		</div>
+		<a href="https://fr-fr.facebook.com/" target="_blank">
+			<div class="highlight" style="height:50px;width:50px;position:fixed;bottom:0;right:56px">
+			</div>
+		</a>
+		<div style="position:fixed;bottom:0;right:110px">
+			<img style="width:50px; height:50px;" src="googleplus.jpg" alt="Join us on Google+">
+		</div>
+		<a href="https://accounts.google.com/" target="_blank">
+			<div class="highlight" style="height:50px;width:50px;position:fixed;bottom:0;right:110px">
+			</div>
+		</a>
+		<div class="hautpage"> <a href="#top"> <img src="hautpage.png" width="50" height="50"  alt="Haut de page" title="Haut de page"> </a> </div>
+	</body>
+</html>

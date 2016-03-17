@@ -1,0 +1,307 @@
+
+
+body {background:url("fond.jpg") repeat fixed;}
+
+div {}
+	
+	.entete{
+		width:960px;
+		height:80px;
+		background-color:rgba(0,0,0,0.7);
+		margin:auto;
+		vertical-align:middle;
+		border-radius:20px;
+		border-style:double;
+		border-width:2px;
+		border-color:purple;        /*le css de l'ombre a été prit sur un site de generateur d'ombre*/
+		-moz-box-shadow: 3px 3px 4px 1px #cb0000;
+		-webkit-box-shadow: 3px 3px 4px 1px #cb0000;
+		-o-box-shadow: 3px 3px 4px 1px #cb0000;
+		box-shadow: 3px 3px 4px 1px #cb0000;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#cb0000, Direction=135, Strength=4);
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+	}
+	
+	.titrebar{
+		position:absolute;
+		font-size:400%;
+		font-weight:bold;
+		font-family:Allura;
+		width:960px;
+		height:80px;
+		top:10px;
+		margin:auto;
+		text-align:center;
+	}
+	
+
+	.corps{ 
+		position:relative;
+		width : 960px;
+		height: auto;
+		margin:auto;
+		background-color:rgba(0,0,0,0.9);
+		top:30px;
+		font-size:26px;
+		font-family:Arial;
+		text-align:center;
+		color:white;
+		font-style:italic;
+		border-radius:20px;
+		border-style:double;
+		border-width:2px;
+		border-color:purple;
+		-moz-box-shadow: 3px 3px 40px 3px #cb0000; /*le css de l'ombre a été prit sur un site de generateur d'ombre*/
+		-webkit-box-shadow: 3px 3px 40px 3px #cb0000;
+		-o-box-shadow: 3px 3px 40px 3px #cb0000;
+		box-shadow: 3px 3px 40px 3px #cb0000;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#cb0000, Direction=135, Strength=40);
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;		
+	}
+	
+	.menu{
+		position : relative;
+		margin:auto;
+		width:960px;
+		height:75px;
+		text-align:center;
+		top:10px;
+		color:white;	
+	}
+	
+	.button{
+		position:relative;
+		float:left;
+		width:192px;
+		height:auto;
+		text-align:center;
+		background-color:rgba(0,0,0,0.7);
+		margin:auto;
+		min-height:100%;
+		line-height:70px;
+		overflow:auto;
+		font-style:italic;
+		border-radius:10px;
+		-moz-box-shadow: 3px 3px 4px 1px #cb0000;      /*le css de l'ombre a été prit sur un site de generateur d'ombre*/
+		-webkit-box-shadow: 3px 3px 4px 1px #cb0000;
+		-o-box-shadow: 3px 3px 4px 1px #cb0000;
+		box-shadow: 3px 3px 4px 1px #cb0000;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#cb0000, Direction=135, Strength=4);
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;	
+	}
+	
+	.horaires{
+		margin:auto;
+		width:280px;
+		height:auto;
+		color:orange;
+		font-family:Helvetica;
+		font-size:22px;
+	}
+	
+
+
+	.menu_gauche{                            
+		position:relative;
+		width:320px;
+		height:550px;
+		background-color:rgba(51,0,100,0.5);
+		left:10%;
+		color:white;
+		border-radius:10px;
+		border:double 1px red;
+		margin-bottom:30px;
+		text-align:center;
+		font-family:italic;
+		font-size:30px;
+	}
+	
+	.menu_droite{                           
+		position:absolute;
+		width:320px;
+		height:550px;
+		background-color:rgba(51,0,100,0.5);
+		right:10%;
+		top:9.2%;
+		color:white;
+		border-radius:10px;
+		border:double 1px red;
+		margin-bottom:30px;
+		margin-top:30px;
+		text-align:center;
+		font-family:italic;
+		font-size:30px;
+	}
+	
+	.menu_basdroite{                           
+		position:absolute;
+		width:320px;
+		height:550px;
+		background-color:rgba(51,0,100,0.5);
+		right:10%;
+		bottom:2.2%;
+		color:white;
+		border-radius:10px;
+		border:double 1px red;
+		margin-bottom:30px;
+		margin-top:30px;
+		text-align:center;
+		font-family:italic;
+		font-size:30px;
+	}
+	
+	.carte_boissons{                            
+		position:relative;
+		width:800px;
+		height:auto;
+		color:white;
+		border-radius:10px;
+		margin-bottom:30px;
+		margin:auto;
+		background-color:rgba(51,0,100,0.5);
+		border:double 1px red;
+	}
+	
+	.social{				/*icones de reseaux sociaux*/
+		position:fixed;
+		width:150px;
+		height:auto;
+		border-radius:10px;
+		right:0;
+		bottom:50px;
+		padding:5px;
+		font-family:Arial;
+		text-align:center;
+		font-weight:bold;
+		font-size:18px;
+		background-color:rgba(0,0,0,0.7);
+		color:white;
+		border: solid 2px white;
+		overflow:hidden;
+	}
+		
+	.hautpage{            /*bouton ramenant en haut de la page*/
+		border:0;
+		position:fixed; 
+		bottom:160px; 
+		right:60px; 
+	}
+
+
+	
+/*Effets de surbrillances */	
+	
+div.button:hover
+{
+	top:-2px;
+	background-color:rgba(0,0,120,0.8); 
+	border:solid 2px purple;
+	width:188px;
+	font-size:120%;
+	color:red;
+	line-height:60px;
+}
+
+div.infos:hover
+{
+	background-color:rgba(51,0,100,0.5);
+}
+
+div.highlight:hover
+{
+	background-color:rgba(255,255,255,0.3);
+}
+
+td {}
+
+	.prix{
+	font-size:15px;
+	font-weight:bold;
+	position:absolute;
+	right:8px
+	}
+
+img {}
+	.img_galerie{
+	position:relative;
+	margin-right:20px;
+	width:288px;
+	height:192px;
+	margin-bottom:30px;
+	}
+	
+	
+li {
+	float:left;
+	position:relative;
+	padding: 5px;
+	text-align:center;
+	display:block;
+	}
+
+ul{
+	position:absolute;
+	list-style:none;
+	margin:auto;
+	
+	}
+		
+a {}
+	.sans_hypertxt{
+		text-decoration:none;
+		color:white;
+	}
+
+	
+	
+hr{}										/*utilisation d'une astuce css permettant de faire un <hr> stylisé */
+	.grand_titre{
+		height:30px;
+		border-style:solid;
+		border-color:white;
+		border-width:1px 0 0 0;
+		border-radius:20px;
+		width:500px;
+	}
+	
+hr.grand_titre:before { 
+		display: block;
+		content: "";
+		height: 30px;
+		margin-top: -31px;    
+		border-style: solid;
+		border-color: white;
+		border-width: 0 0 1px 0;
+		border-radius: 20px;
+		width:500px;
+	}
+	
+	.menu_type{
+		width:250px
+	}
+	.boisson_trait{ 
+		width:798px;
+	}
+p{}
+	.nourriture{
+		font-size:18px;
+		font-family: "Times New Roman", Times, serif;
+		font-style:normal;
+	}
+		
+		
+@font-face {                             /*Installation de polices personnalisées*/
+	font-family: 'Allura';
+	src: url('Allura-Regular.otf');
+	}
+	
+@font-face {
+	font-family: 'Dancing';
+	src: url('DancingScript-Regular.otf');
+	}

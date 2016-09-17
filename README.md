@@ -1,3 +1,4 @@
-# Restaurant_html
+# Restaurant
 
-Projet réalisé en première année de DUT informatique à Vélizy
+Project realised in first year of DUT at Velizy University.
+It is a fictionnal restaurant website did with basical HTML & CSS.
